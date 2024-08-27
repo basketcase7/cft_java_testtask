@@ -15,6 +15,10 @@ cd cft_java_testtask
 ```shell
 ./gradlew build
 ```
+или
+```shell
+gradlew build
+```
 ## Запуск утилиты
 После сборки проекта JAR-файл будет создан в директории build/libs с именем **cft_java_final-1.0-SNAPSHOT.jar.**
 Для запуска утилиты используйте следующую команду:
