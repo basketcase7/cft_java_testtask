@@ -10,10 +10,12 @@
    Перейдите в корневую директорию проекта:
    ```shell
    git clone https://github.com/basketcase7/cft_java_testtask.git
+   ```
+   ```shell
    cd cft_java_testtask
    ```
 
-2. Сборка проекта  
+3. Сборка проекта  
    Выполните следующую команду для сборки проекта и создания JAR-файла:
    ```shell
    ./gradlew build
@@ -51,6 +53,7 @@ java -jar build/libs/cft_java_final-1.0-SNAPSHOT.jar -s -a -p sample- in1.txt in
 ```
 
 Содержимое файла in1.txt:
+```text
 Lorem ipsum dolor sit amet
 45
 Пример
@@ -59,14 +62,15 @@ consectetur adipiscing
 -0.001
 тестовое задание
 100500
-
+```
 
 Содержимое файла in2.txt:
+```text
 Нормальная форма числа с плавающей запятой
 1.528535047E-25
 Long
 1234567890123456789
-
+```
 
 ### Пример выходных данных
 
@@ -77,22 +81,25 @@ Long
 
 
 - Файл sample-integers.txt:
+```text
 45
 100500
 1234567890123456789
-
+```
 
 - Файл sample-floats.txt:
+```text
 3.1415
 -0.001
 1.528535047E-25
-
+```
 
 - Файл sample-strings.txt:
+```text
 Lorem ipsum dolor sit amet
 Пример
 consectetur adipiscing
 тестовое задание
 Нормальная форма числа с плавающей запятой
 Long
-
+```
