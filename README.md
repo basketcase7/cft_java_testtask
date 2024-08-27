@@ -8,26 +8,27 @@
 
 1. Клонирование репозитория  
    Перейдите в корневую директорию проекта:
-   
+   ```shell
    git clone https://github.com/basketcase7/cft_java_testtask.git
    cd cft_java_testtask
-   
+   ```
 
 2. Сборка проекта  
    Выполните следующую команду для сборки проекта и создания JAR-файла:
-   
+   ```shell
    ./gradlew build
-   
+   ```
    или для Windows:
-   
+   ```shell
    gradlew build
-   
+   ```
 
 ## Запуск утилиты
 
 Для запуска утилиты используйте следующую команду:
+```shell
 java -jar build/libs/cft_java_final-1.0-SNAPSHOT.jar [опции] [файлы]
-
+```
 
 ## Описание дополнительных опций
 
@@ -45,9 +46,9 @@ java -jar build/libs/cft_java_final-1.0-SNAPSHOT.jar [опции] [файлы]
 ## Пример запуска утилиты
 
 ### Пример входных данных
-
+```shell
 java -jar build/libs/cft_java_final-1.0-SNAPSHOT.jar -s -a -p sample- in1.txt in2.txt
-
+```
 
 Содержимое файла in1.txt:
 Lorem ipsum dolor sit amet
